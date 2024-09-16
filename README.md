@@ -1,6 +1,6 @@
 ### Source codes for paper-  Learning Neural Networks for Multi-label Medical Image Retrieval Using Hamming Distance Fabricated with Jaccard Similarity Coefficient\\ JaccHash: Multi-label Medical Image Retrieval Using Hamming Distance Between Hash Codes and Jaccard Similarity Coefficient Between Image Label Sets
 
-** Please ensure you read the following guidelines before running the code.** 
+**Please ensure you read the following guidelines before running the code.** 
 ## Prerequisites
 * Ubuntu\* 20.04
 * Debian
