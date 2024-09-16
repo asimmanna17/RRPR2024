@@ -10,7 +10,6 @@
 * CUDA 11.2
   
 ## Setup
-* Install Git LFS: `
 * Create enviorment: `conda create -n rrpr python=3.9.6 pip`
 * Activate enviorment: `source activate rrpr`
 * Download: `git clone https://github.com/asimmanna17/RRPR2024.git`
@@ -28,7 +27,7 @@ Codes can be implemented for two purposes: code verification and result reproduc
 #### Code verification:
 In this case, the code for the algorithm is demonstrated using a very small subset availabe in `./Dataset` folder. 
 #### Result reproducibility:
-To reproduce the results shown in **Table 2 and Table 3**, the full dataset provided above must be used and saved in the appropriate directory, i.e., `.\Dataset`. For training, the `train.py` script should be executed using the `train` folder by providing hash code length {16,32,48,64}. **However, the training process can be skipped since the pre-trained model has already been uploaded at `.\Datastore\Models`**. Once the trained model is available, the inference results can be reproduced by running `evaluation.py` with the `gallery` and '`query` folders. Ensure that all data paths are correctly linked to the code.
+To reproduce the results shown in **Table 2 and Table 3**, the full dataset provided above must be used and saved in the appropriate directory, i.e., `.\Dataset`. For training, the `train.py` script should be executed using the `train` folder by providing hash code length {16,32,48,64}. **However, the training process can be skipped since the pre-trained model has already been uploaded at [here](https://github.com/asimmanna17/model_duplicate/tree/main/Datastore/Models)**. Once the trained model is available, the inference results can be reproduced by running `evaluation.py` with the `gallery` and '`query` folders. Ensure that all data paths are correctly linked to the code.
 
 \noindent **For Table 4 and Figure 5**, the notebook `demo.ipynb` can be used.
 
