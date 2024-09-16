@@ -10,9 +10,9 @@
 * CUDA 11.2
   
 ## Setup
+* Download: `git clone https://github.com/asimmanna17/RRPR2024.git`
 * Create enviorment: `conda create -n rrpr python=3.9.6 pip`
 * Activate enviorment: `source activate rrpr`
-* Download: `git clone https://github.com/asimmanna17/RRPR2024.git`
 * Change directory: `cd RRPR2024`
 * pip install: `pip install -r requirements.txt`
 * Additionally, run `check_package.py` to verify that all the required packages and libraries are available in your environment. 
