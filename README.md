@@ -27,7 +27,7 @@ In this case, the code for the algorithm is demonstrated using a very small subs
 #### Result reproducibility:
 To reproduce the results shown in **Table 2 and Table 3**, the full dataset provided above must be used and saved in the appropriate directory, i.e., `.\Dataset`. For training, the `train.py` script should be executed using the `train` folder by providing hash code length {16,32,48,64}. **However, the training process can be skipped since the pre-trained model has already been uploaded at [here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EnpMHJhxq21IofZky0V_gTYBbSkzb0r_aDBi6c_A-0E6ug?e=RANmcV)**. Once the trained model is available, the inference results can be reproduced by running `evaluation.py` with the `gallery` and '`query` folders. Ensure that all data paths are correctly linked to the code.
 
-\noindent **For Table 4 and Figure 5**, the notebook `demo.ipynb` can be used.
+**For Table 4 and Figure 5**, the notebook `demo.ipynb` can be used.
 
 ## **Contributor**
 
