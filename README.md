@@ -1,4 +1,4 @@
-### Source codes for paper-  Learning Neural Networks for Multi-label Medical Image Retrieval Using Hamming Distance Fabricated with Jaccard Similarity Coefficient\\ JaccHash: Multi-label Medical Image Retrieval Using Hamming Distance Between Hash Codes and Jaccard Similarity Coefficient Between Image Label Sets
+### Source codes for paper-  Learning Neural Networks for Multi-label Medical Image Retrieval Using Hamming Distance Fabricated with Jaccard Similarity Coefficient
 
 **Please ensure you read the following guidelines before running the code.** 
 ## Prerequisites
@@ -21,8 +21,8 @@
 The dataset is sourced from the publicly available NIH Chest X-ray database , which contains 112,120 frontal-view X-ray images from 30,805 unique patients[[1]](#nihdataset). From this dataset, we selected 51,480 images. These images are organized into three distinct sets: a training set with 38,610 images, a gallery set with 10,296 images, and a query set with 2,574 images. All images are stored in `.npy` format. The training set is used during training, while the gallery and query sets are used during inference. The dataset is available at: \url{https://data.mendeley.com/datasets/c5x35tmj5v/1}. Save the models `./Datastore/Models/` directory. After downloading and extracting the 'Dataset.zip' file, three image subfolders are provided: 'train', 'gallery', and 'query'. Note that a subset of sample dataset is already availabe in `./Dataset` folder. 
 
 ## Implementation guidelines 
-Codes can be implemented for two purposes: code verification and result reproducibility.
-#### Code verification:
+Codes can be implemented for two purposes: method reproducibility and result reproducibility.
+#### Mehod reproducibility:
 In this case, the code for the algorithm is demonstrated using a very small subset availabe in `./Dataset` folder. 
 #### Result reproducibility:
 To reproduce the results shown in **Table 2 and Table 3**, the full dataset provided above must be used and saved in the appropriate directory, i.e., `.\Dataset`. For training, the `train.py` script should be executed using the `train` folder by providing hash code length {16,32,48,64}. **However, the training process can be skipped since the pre-trained model has already been uploaded at [here](https://iitkgpacin-my.sharepoint.com/:f:/g/personal/asimmanna17_kgpian_iitkgp_ac_in/EnpMHJhxq21IofZky0V_gTYBbSkzb0r_aDBi6c_A-0E6ug?e=ilrbxm) Otherwise, we have to do the full training**. Once the trained model is available, the inference results can be reproduced by running `evaluation.py` with the `gallery` and '`query` folders. Ensure that all data paths are correctly linked to the code.
