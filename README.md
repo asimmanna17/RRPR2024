@@ -18,6 +18,7 @@
 * Additionally, run `check_package.py` to verify that all the required packages and libraries are available in your environment.
   
 <img src = "check.png" width=650>
+
 ## Used datasets
 The dataset is sourced from the publicly available NIH Chest X-ray database , which contains 112,120 frontal-view X-ray images from 30,805 unique patients[[1]](#nihdataset). From this dataset, we selected 51,480 images. These images are organized into three distinct sets: a training set with 38,610 images, a gallery set with 10,296 images, and a query set with 2,574 images. All images are stored in `.npy` format. The training set is used during training, while the gallery and query sets are used during inference. The dataset is available at: \url{https://data.mendeley.com/datasets/c5x35tmj5v/1}. Save the models `./Datastore/Models/` directory. After downloading and extracting the 'Dataset.zip' file, three image subfolders are provided: 'train', 'gallery', and 'query'. Note that a subset of sample dataset is already availabe in `./Dataset` folder. 
 
