@@ -28,7 +28,7 @@ torch.cuda.manual_seed(3407)
 torch.cuda.manual_seed_all(3407)
 
 #### Hyperparemetr Details ######
-hash_code = 48
+hash_code = 16 #Specify hash code length
 classes = ['Atelectasis', 'Cardiomegaly', 'Effusion', 'Infiltration','Mass', 'Nodule', 'Pneumonia', 'Pneumothorax',
                         'Consolidation', 'Edema', 'Emphysema', 'Fibrosis','Pleural']
 numClasses = len(classes)
