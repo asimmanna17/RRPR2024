@@ -118,7 +118,7 @@ for epoch in tqdm(range(epochs)):
         #print(dist_loss)
         distance_running_loss += dist_loss
 
-        total_loss =     lambda2*loss #lambda1*dist_loss
+        total_loss =  lambda1*dist_loss + lambda2*loss 
         total_loss.backward()
 
         optimizer.step()
