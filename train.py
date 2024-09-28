@@ -32,7 +32,7 @@ hash_code = 16 #Specify hash code length
 classes = ['Atelectasis', 'Cardiomegaly', 'Effusion', 'Infiltration','Mass', 'Nodule', 'Pneumonia', 'Pneumothorax',
                         'Consolidation', 'Edema', 'Emphysema', 'Fibrosis','Pleural']
 numClasses = len(classes)
-batch_size = 512
+batch_size = 4 #batch size is 512
 learningRate = 0.0001
 epochs = 200
 lambda1 = 1
