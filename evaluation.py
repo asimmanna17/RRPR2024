@@ -51,7 +51,7 @@ def similarityLabel(sorted_pool, q_name):
 
 
 #### Hyperparemetr Details ######
-hash_code = 48
+hash_code = 16  #Specify the hash code length
 lambda1 = 1 
 lambda2 = 1.5
 numClasses = len(classes)
@@ -63,7 +63,7 @@ model = Encoder(numClasses,hash_code)
 if torch.cuda.is_available():
     model.cuda()
 
-model_name = f'JaccHash_{hash_code}_{lambda1}_{lambda2}.pkl'
+model_name = f'JaccHash_{hash_code}.pkl'
 dataStorePath = './Datastore/Models/'
 #print(os.listdir(dataStorePath))
 model_path = os.path.join(dataStorePath,model_name)
