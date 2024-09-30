@@ -169,7 +169,6 @@ print('ACG:', sum(acg_list)/len(acg_list))
 print('mAPw:', sum(w_map_list)/len(w_map_list))
 print(model_name)
 
-#print('alpha:', alpha)
 
 
 
